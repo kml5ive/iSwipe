@@ -1,2 +1,2 @@
 #Lightbox-swipe
-touch enabled lightbox
+Touch enabled lightbox
