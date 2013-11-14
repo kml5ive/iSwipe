@@ -1,0 +1,65 @@
+.fl-left{float: left !important;}.fl-right{float: right !important;}
+
+@-webkit-keyframes "borders" {
+  0% {
+    border-top-color: #4f6f8f;
+    border-left-color: #46637f;
+    border-bottom-color: #3d566e;
+    border-right-color: #34495e;
+  }
+
+  20% {
+    border-left-color: #4f6f8f;
+    border-bottom-color: #46637f;
+    border-right-color: #3d566e;
+    border-top-color: #34495e;
+  }
+
+  40% {
+    border-bottom-color: #4f6f8f;
+    border-right-color: #46637f;
+    border-top-color: #3d566e;
+    border-left-color: #34495e;
+  }
+
+  80% {
+    border-right-color: #4f6f8f;
+    border-top-color: #46637f;
+    border-left-color: #3d566e;
+    border-bottom-color: #34495e;
+  }
+
+  100% {
+    border-top-color: #4f6f8f;
+    border-left-color: #46637f;
+    border-bottom-color: #3d566e;
+    border-right-color: #34495e;
+  }
+}
+
+#iswipebox-content{
+  z-index: 999;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  background-color: #22303d;
+  border-radius: 75px;
+  overflow: hidden;
+}
+#iswipebox-loading-anim{
+  position: absolute;
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  border-width: 75px;
+  border-style: solid;
+  -webkit-animation: 'borders' 1s linear infinite;
+}
+.iswipebox-next, #iswipebox-slides{
+	display: none;
+}

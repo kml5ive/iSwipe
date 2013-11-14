@@ -1,0 +1,1 @@
+jQuery(document).ready(function(e){var t=e("body").iSwipebox();console.log(t)});
