@@ -79,7 +79,7 @@
         <script src="inc/assets/js/vendor/bootstrap.min.js"></script>
         
         <script src="inc/assets/js/plugins.js"></script>
-        <script src="inc/assets/js/jquery.swipboxai.js"></script>
+        <script src="jquery.iswipe.min.js"></script>
         <script src="inc/assets/js/custom.js"></script>
     </body>
 </html>
