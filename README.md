@@ -1,2 +1,3 @@
 #Lightbox-swipe
-Touch enabled lightbox
+Touch enabled lightbox.
+Module Created
