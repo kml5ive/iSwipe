@@ -10,7 +10,7 @@
         prefix = 'iswipebox-',
         boxElement = prefix + 'Element',
 
-        //jQuery cahed variables
+        //jQuery cahed variables prfx $
         $window,
         $overlay,
         $modal,
