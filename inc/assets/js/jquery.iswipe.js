@@ -143,7 +143,7 @@
               }
           });
         }
-        
+
         if ($.isFunction($.fn.on)) {
           // For jQuery 1.7+
           $(document).on('click.'+prefix, '.'+boxElement, doClick);
@@ -170,15 +170,15 @@
     };
 
     publicMethod.next = function () {
-
+      console.log('Next');
     };
 
     publicMethod.previous = function () {
-
+      console.log("Previus");
     };
 
     publicMethod.close = function () {
-
+      console.log("Close");
     };
 
 }(jQuery, window, document));
