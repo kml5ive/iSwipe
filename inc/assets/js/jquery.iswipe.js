@@ -155,7 +155,7 @@
         }
 
     };
-
+    
     // ****************
     // PUBLIC FUNCTIONS
     // Usage format: $.iSwipebox.close();
